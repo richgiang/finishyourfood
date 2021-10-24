@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Nighty;
+    src: url(/assets/Nightydemo.otf);
+}
+@font-face {
+    font-family: Metana;
+    src: url(/assets/NeueMetana-Regular.otf);
+}
+@font-face {
+    font-family: Metana-Bold;
+    src: url(/assets/NeueMetana-Bold.otf);
+}
+@font-face {
+    font-family: Modernist;
+    src: url(/assets/Sk-Modernist-Regular.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffe8d6;
+}
+
+.title{
+    font-family: Metana-Bold;
+    font-size: 7rem;
+    padding-top: none;
+    display: block;
+    position: fixed;
+    top: 8%;
+    left: 5%;
+    width: 40%;
+    color: #6b705c;
+}
+
+.catalog{
+    display: block;
+    position: fixed;
+    width: 20%;
+    left: 5%;
+    top: 55%;
+}
+.catalog a{
+    text-decoration: none;
+    color: black;
+    font-family: Metana;
+    transition: ease .5s;
+    color: #6b705c;
+}
+.catalog a:hover{
+    letter-spacing: 2.5px;
+}
+
+.intro{
+    padding: 0;
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    width: 50%;
+    right: 10%;
+    font-family: Modernist;
+    font-size: 2rem;
+}
+
